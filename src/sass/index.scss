@@ -1,0 +1,29 @@
+$color: #666;
+html {
+  height: 100vh;
+}
+body {
+  padding: 0;
+  margin: 0;
+  color: $color;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.top {
+  font-size: 16px;
+  text-align: center;
+}
+.center {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 0;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
